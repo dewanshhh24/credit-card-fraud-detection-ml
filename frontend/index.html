@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Credit Card Fraud Detection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <h1>💳 Fraud Detection</h1>
+      <p class="subtitle">
+        Machine Learning based Credit Card Fraud Prediction
+      </p>
+
+      <textarea
+        id="inputData"
+        placeholder="Enter 30 values (V1 → V28 + Amount)"
+      ></textarea>
+
+      <button onclick="predict()">Check Transaction</button>
+
+      <div id="result" class="result">
+        Waiting for prediction...
+      </div>
+    </div>
+
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
